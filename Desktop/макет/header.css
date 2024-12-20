@@ -33,7 +33,9 @@ body{
     color: white;
     display: block;
     padding: 5px;
-   
+}
+.list_item:hover{
+    color: #f700ff6c;
 }
 .header_knopka{
     position: absolute;
@@ -47,10 +49,10 @@ body{
     font-size: 20px;
 }
 .header_big_title{
-    color: #E1BBFB;
+    color: white;
     position: absolute;
     left: 400px;
-    bottom: 560px;
+    bottom: 460px;
     font-size: 74px;
     line-height: 74px;
     text-align: center;
@@ -59,7 +61,7 @@ body{
     color: #E1BBFB;
     position: absolute;
     left: 450px;
-    bottom: 500px;
+    bottom: 400px;
     font-size: 74px;
     line-height: 74px;
     text-align: center;
@@ -68,26 +70,30 @@ body{
     color: #FFFFFF99;
     position: absolute;
     left: 570px;
-    bottom: 470px;
+    bottom: 370px;
 }
 .header_text2{
     color: #FFFFFF99;
     position: absolute;
     left: 530px;
-    bottom: 450px;
+    bottom: 350px;
 }
 .header_knopka_white{
     background-color:white;
-    border-radius: 5px ;
+    border-radius: 10px ;
     position: absolute;
-    left: 530px;
-    bottom: 400px;
+    left: 490px;
+    bottom: 300px;
+    width: 177px;
+    height: 50px;
 }
 .header_knopka_black{
     background-color:black;
     color: white;
-    border-radius: 5px ;
+    border-radius: 10px ;
+    width: 177px;
+    height: 50px;
     position: absolute;
     left: 670px;
-    bottom: 400px;
+    bottom: 300px;
 }
